@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="quiz_app.css">
+</head>
+<body>
+    <div class="startBtnBox">
+        <button class="startBtn">START QUIZ</button>
+    </div>
+    <div class="container">
+        <header>
+            <div class="quizBox">Quiz</div>
+            <div class="questionScoreBox">
+                <div class="questionBox">
+                    <span>Question : </span>
+                    <span class="queNo"></span>
+                    <span>/10</span>
+                </div>
+                <div class="scoreBox">
+                    <span>Score : </span>
+                    <span class="score"></span>
+                </div>
+            </div>
+        </header>
+    
+        <div class="questions"></div>
+        <div class="choices">
+            <div class="options" id="option1"></div>
+            <div class="options" id="option2"></div>
+            <div class="options" id="option3"></div>
+            <div class="options" id="option4"></div>
+        </div>
+        
+        <div class="prevNextBtn">
+            <button class="prevBtn">Previous</button>
+            <button class="nextBtn">Next</button>
+        </div>
+    </div>
+    <div class="scoreBoardContainer">
+        <div class="scoreBoard">
+            <h1 class="yourScore">Your Score</h1>
+            <div class="displayScore">
+                <div class="SCORE">50</div>
+            </div>
+            <button class="restart">Restart</button>
+        </div>
+    </div>
+    <script src="quiz_app.js"></script>
+</body>
+</html>
